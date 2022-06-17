@@ -1,0 +1,44 @@
+body{
+    background: rgba(243, 240, 49, 0.719);
+    font: normal 15pt sans-serif;
+}
+header{
+    color: rgb(97, 45, 45);
+    text-align: center;
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 530px;
+    margin: auto;
+    color: white;
+    box-shadow: 3px 3px rgba(104, 96, 96, 0.548);
+}
+div{
+    color: black;
+}
+
+div#res{
+    padding: 10px;
+    font: italic 15px sans-serif;
+    text-align: center;
+}
+input#btnGerar{
+    background: rgb(226, 95, 95);
+    border-color: rgb(236, 75, 75);
+    border-radius: 4px;
+    font: normal 15px sans-serif;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 25%;
+    margin-top: 10px;
+
+}
+footer{
+    color: rgb(63, 54, 54);
+    text-align: center;
+    font: italic 12px arial;
+}

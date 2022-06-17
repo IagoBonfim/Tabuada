@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercícios</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <div>
+            Número: <input type="number" id="txtnumero" name="numero"> 
+            Operação: <input type="radio" name="cxtipo" id="cxSomar" checked>
+            <label for="cxSomar">+</label>
+            <input type="radio" name="cxtipo" id="cxSubtrair">
+            <label for="cxSubtrair">-</label>
+            <input type="radio" name="cxtipo" id="cxMultiplicar">
+            <label for="cxMultiplicar">x</label>
+            <input type="radio" name="cxtipo" id="cxDividir">
+            <label for="cxDividir">/</label>
+        </div>
+        <input type="button" value="Gerar Tabuada" id="btnGerar" onclick="gerarTabuada()">
+        <div id="res">
+            <p>...Aguardando o preenchimento dos dados...</p>
+        </div>
+    </section>
+    <footer>
+        <p>
+            &copy Iago Bonfim
+        </p>
+    </footer> 
+    <script src="script.js"></script>  
+</body>
+</html>
