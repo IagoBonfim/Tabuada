@@ -35,7 +35,7 @@ function gerarTabuada(){
                     if(n == 0){
                         result = 0
                     }
-                    res.innerHTML += `<p>${numConv} / ${n} = ${(result).toFixed(1)}</p>`
+                    res.innerHTML += `<p>${numConv} / ${n} = ${(result).toFixed(2)}</p>`
                }
                return
             }      
